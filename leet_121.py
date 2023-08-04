@@ -50,3 +50,6 @@ class Solution:
                 print('mx: ', mx)
         return mx                           
 # %%
+import itertools
+for (x,y) in itertools.pairwise(array1):
+    print(x,y)
